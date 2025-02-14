@@ -1,3 +1,8 @@
+
+.container-Follow{
+   display: flex;
+   flex-direction: row-reverse;
+}
 .Container-x{
     display: flex;
     justify-content: space-between;
@@ -27,17 +32,26 @@
 .Container-x .Container-x-Seguir{
     border-radius: 40px;
     height: 40px;
-    width: 100px;
+    width: 150px;
     cursor: pointer;
     border: 1px solid #000;
     transition: .3s ease background-color;
 }
-.Container-x .Container-x-Seguir.is-follow{
-    border: 1px solid red;
+.isnotFolowing{
+   display: none;
 }
 .Container-x .Container-x-Seguir:hover{
-    background-color: aqua;
+   opacity: 0.8;
 }
 .Container-x .Container-x-Seguir.is-follow:hover{
-    background-color: red;
+    background-color: rgba(255, 0, 0, 0.151);
+    color: white;
+    border: 1px solid red;
+}
+.Container-x .Container-x-Seguir.is-follow:hover .isnotFolowing{
+    display: block;
+    
+}
+.Container-x .Container-x-Seguir.is-follow:hover .Following{
+    display: none;
 }

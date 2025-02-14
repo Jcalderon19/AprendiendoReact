@@ -17,7 +17,7 @@ export function TwiterFollowCard({Name,username}){
             </div>
         </header>
         <aside>
-            <button className={buttonClas} onClick={handelclic}>{text}</button>
+            <button className={buttonClas} onClick={handelclic}><span className="Following">{text}</span><span className="isnotFolowing">Dejar de Seguir</span></button>
         </aside>
        </article>
     )
