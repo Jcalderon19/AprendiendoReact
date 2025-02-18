@@ -1,13 +1,22 @@
-
+.Titulo-Sugerencias{
+    color: beige;
+}
 .container-Follow{
-   display: flex;
-   flex-direction: row-reverse;
+    border: 0.5px solid #ffffff;
+    border-radius: 15%;
+    padding: 20px;
+    grid-column: 3/ 3;
+    grid-row: 2/3;
+    display: grid;
+    max-width: 1200px;
+    justify-self: center;
+    align-self: center;
 }
 .Container-x{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 68px;
+    gap: 30px;
 }
 .Container-x-header{
     display: flex;
@@ -31,8 +40,8 @@
 
 .Container-x .Container-x-Seguir{
     border-radius: 40px;
-    height: 40px;
-    width: 150px;
+    height: 30px;
+    width: 100px;
     cursor: pointer;
     border: 1px solid #000;
     transition: .3s ease background-color;
