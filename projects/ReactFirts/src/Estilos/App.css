@@ -1,10 +1,29 @@
 .Container-grid{
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
-    grid-template-rows: 1fr 2fr 1fr;  
-    gap: 20px;
+    grid-template-rows: 1fr 2fr 1fr;
     height: 100vh;
     background: #222;
     color: white;
     padding: 10px;
+}
+.Container-Navbar{
+    display: grid;
+    grid-column: 2/3;
+    max-width: 1200px;
+    width: 46vw;
+    height: 7vh;
+    border-bottom: 0.5px solid rgba(219, 214, 214, 0.534);
+    border-right: 0.5px solid rgba(219, 214, 214, 0.534);
+}
+.Navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.Container-left{
+    border-right: 0.5px solid rgba(219, 214, 214, 0.534);
+    grid-row: 1 / 4;
+    
 }

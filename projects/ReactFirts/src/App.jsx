@@ -3,6 +3,7 @@ import './Estilos/EstilosSugerencias.css'
 import './Estilos/EstilosBuscador.css'
 import { TwiterFollowCard } from './Components/TwuiterFollowCard.jsx'
 import { Navbar } from './Components/Buscador.jsx'
+import { ComponentLeft } from './Components/ComponenteIZquierdo.jsx'
 
 export function App(){
     return (
@@ -14,6 +15,10 @@ export function App(){
                 </div>
             </div>
             <div className='Container-left'>
+                <ComponentLeft/>
+                <TwiterFollowCard  Name="Juan David" username="JuanitoAlimaña" />
+            </div>
+            <div className='Container-Center'>
 
             </div>
             <div className='container-Follow'>
