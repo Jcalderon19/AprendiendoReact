@@ -3,15 +3,15 @@ export function ComponentLeft(){
     return(
         <>
         <span className="Marca-x">X</span>
-        <button className="Btn-Inicio">Inicio</button>
-        <button className="Btn-Explorar">Explorar</button>
-        <button className="Btn-Notificaciones">Notificaciones</button>
-        <button className="Btn-Mensajes">Mensajes</button>
-        <button className="Btn-Grok">Grok</button>
-        <button className="Btn-Comunidades">Comunidades</button>
-        <button className="Btn-Perfil">Perfil</button>
-        <button className="Btn-Opciones">Mas Opciones</button>
-        <button className="Btn-Postear">Postear</button>
+        <button className="Btn-Left"><span></span>Inicio</button>
+        <button className="Btn-Left"><span></span>Explorar</button>
+        <button className="Btn-Left"><span></span>Notificaciones</button>
+        <button className="Btn-Left"><span></span>Mensajes</button>
+        <button className="Btn-Left"><span></span>Grok</button>
+        <button className="Btn-Left"><span></span>Comunidades</button>
+        <button className="Btn-Left"><span></span>Perfil</button>
+        <button className="Btn-Left"><span></span>Mas Opciones</button>
+        <button className="Btn-Lef-post"><span></span>Postear</button>
         </>
     )
 }

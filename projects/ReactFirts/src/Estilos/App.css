@@ -25,5 +25,10 @@
 .Container-left{
     border-right: 0.5px solid rgba(219, 214, 214, 0.534);
     grid-row: 1 / 4;
-    
+}
+
+.Container-left-main{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
