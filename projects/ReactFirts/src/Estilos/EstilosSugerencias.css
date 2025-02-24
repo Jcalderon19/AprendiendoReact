@@ -2,21 +2,16 @@
     color: beige;
 }
 .container-Follow{
+    margin: 10px;
     border: 0.5px solid #ffffff;
     border-radius: 15%;
-    padding: 20px;
-    grid-column: 3/ 3;
-    grid-row: 2/3;
+    padding: 15px;
     display: grid;
-    max-width: 1200px;
-    justify-self: center;
-    align-self: center;
 }
 .Container-x{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 30px;
 }
 .Container-x-header{
     display: flex;
@@ -28,9 +23,10 @@
     border-radius: 40px;
     margin-right: 10px;
 }
-.Container-x .Container-x-Avatar-Name{
+.Container-x ,.Container-x-Avatar-Name{
     color:beige;
     display: flex;
+    font-size: 10px;
 }
 .Container-x .Container-x-Avatar-User{
     color:beige;

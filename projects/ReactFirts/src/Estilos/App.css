@@ -11,10 +11,10 @@
     display: grid;
     grid-column: 2/3;
     max-width: 1200px;
-    width: 46vw;
+    width: 50vw;
     height: 7vh;
     border-bottom: 0.5px solid rgba(219, 214, 214, 0.534);
-    border-right: 0.5px solid rgba(219, 214, 214, 0.534);
+   
 }
 .Navbar{
     display: flex;
@@ -31,4 +31,8 @@
     display: flex;
     flex-direction: column;
     gap: 10px;
+}
+.Container-Center{
+    border-right: 0.5px solid rgba(219, 214, 214, 0.534);
+    grid-row: 1 / 4;
 }

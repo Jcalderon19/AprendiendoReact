@@ -6,6 +6,8 @@
     border: 0px;
     background-color: transparent;
     color: white;
+    font-size: 20px;
+    text-align: start;
 }
 .Btn-Left:hover{
     border: 1px solid;
@@ -20,4 +22,8 @@
     height: 50px;
     margin-left: 40px;
     border-radius: 20px;
+    margin-bottom: 15%;
+}
+.Btn-Lef-post:hover{
+    background-color:  rgba(228, 223, 223, 0.582);
 }
